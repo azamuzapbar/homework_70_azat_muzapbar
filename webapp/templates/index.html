@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block menu %}
+{% endblock %}
+
+{% block content %}
+{% include 'partial/search.html' %}
+        {% for task in tasks %}
+<h2>Summmary: {{ task.summary }}</h2>
+<p> Description: {{ task.description }}</p>
+
+
+<p><a href="{% url 'article_detail' task.pk %}"> Details </a></p>
+<p><a href="{% url 'article_update' task.pk %}"> Update </a></p>
+<p><a href="{% url 'article_delete' task.pk %}"> Delete </a></p>
+        {% endfor %}
+{% if is_paginated %}
+   {% include 'partial/pagination.html' %}
+{% endif %}
+{% endblock %}
