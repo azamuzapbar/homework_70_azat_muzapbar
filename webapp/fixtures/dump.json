@@ -1,0 +1,294 @@
+article_create.html
+[
+{
+  "model": "webapp.task",
+  "pk": 1,
+  "fields": {
+    "summary": "asdasd",
+    "description": "asdasd",
+    "status": 1,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:24:49.305Z",
+    "updated_at": "2023-03-16T17:24:49.305Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 2,
+  "fields": {
+    "summary": "asdasd",
+    "description": "asdasdasd",
+    "status": 2,
+    "type": 2,
+    "project": null,
+    "created_at": "2023-03-16T17:24:55.789Z",
+    "updated_at": "2023-03-16T17:24:55.789Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 3,
+  "fields": {
+    "summary": "asdasd",
+    "description": "asdasda",
+    "status": 3,
+    "type": 3,
+    "project": null,
+    "created_at": "2023-03-16T17:25:02.154Z",
+    "updated_at": "2023-03-16T17:25:02.154Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 4,
+  "fields": {
+    "summary": "asdasdagggggg",
+    "description": "asdasdggggg",
+    "status": 2,
+    "type": 2,
+    "project": null,
+    "created_at": "2023-03-16T17:25:11.179Z",
+    "updated_at": "2023-03-16T17:25:11.179Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 5,
+  "fields": {
+    "summary": "aaaaaaa",
+    "description": "aaaaaaaaa",
+    "status": 3,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:25:19.920Z",
+    "updated_at": "2023-03-16T17:25:19.920Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 6,
+  "fields": {
+    "summary": "yjtjyjtyj",
+    "description": "jttyjtyjtyj",
+    "status": 1,
+    "type": 3,
+    "project": null,
+    "created_at": "2023-03-16T17:25:27.678Z",
+    "updated_at": "2023-03-16T17:25:27.678Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 7,
+  "fields": {
+    "summary": "tytyty",
+    "description": "tytytyyt",
+    "status": 2,
+    "type": 3,
+    "project": null,
+    "created_at": "2023-03-16T17:25:34.422Z",
+    "updated_at": "2023-03-16T17:25:34.422Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 8,
+  "fields": {
+    "summary": "fghfgh",
+    "description": "wwww",
+    "status": 3,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:25:40.840Z",
+    "updated_at": "2023-03-16T17:25:40.840Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 9,
+  "fields": {
+    "summary": "kkk",
+    "description": "kkk",
+    "status": 2,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:25:47.286Z",
+    "updated_at": "2023-03-16T17:25:47.286Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 10,
+  "fields": {
+    "summary": "qwqq",
+    "description": "qqqq",
+    "status": 1,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:25:53.512Z",
+    "updated_at": "2023-03-16T17:25:53.512Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 11,
+  "fields": {
+    "summary": "asdasd",
+    "description": "adasda",
+    "status": 2,
+    "type": 3,
+    "project": null,
+    "created_at": "2023-03-16T17:25:59.971Z",
+    "updated_at": "2023-03-16T17:25:59.971Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 12,
+  "fields": {
+    "summary": "asda",
+    "description": "asdasd",
+    "status": 2,
+    "type": 3,
+    "project": null,
+    "created_at": "2023-03-16T17:26:06.038Z",
+    "updated_at": "2023-03-16T17:26:06.038Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 13,
+  "fields": {
+    "summary": "gggg",
+    "description": "gwwww",
+    "status": 1,
+    "type": 2,
+    "project": null,
+    "created_at": "2023-03-16T17:26:25.652Z",
+    "updated_at": "2023-03-16T17:26:25.652Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 14,
+  "fields": {
+    "summary": "dfdfdfgg",
+    "description": "qqqqqrrrrr",
+    "status": 1,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:26:34.058Z",
+    "updated_at": "2023-03-16T17:52:59.237Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 16,
+  "fields": {
+    "summary": "newq",
+    "description": "new",
+    "status": 2,
+    "type": 1,
+    "project": null,
+    "created_at": "2023-03-16T17:54:46.660Z",
+    "updated_at": "2023-03-16T17:55:07.835Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 17,
+  "fields": {
+    "summary": "new",
+    "description": "new",
+    "status": 1,
+    "type": 1,
+    "project": 1,
+    "created_at": "2023-03-16T18:26:31.437Z",
+    "updated_at": "2023-03-16T18:26:31.437Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 18,
+  "fields": {
+    "summary": "bbee",
+    "description": "bbbee",
+    "status": 2,
+    "type": 2,
+    "project": 1,
+    "created_at": "2023-03-16T18:27:04.997Z",
+    "updated_at": "2023-03-16T18:27:04.997Z"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 1,
+  "fields": {
+    "name": "Task"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 2,
+  "fields": {
+    "name": "Bug"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 3,
+  "fields": {
+    "name": "Enhancement"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 1,
+  "fields": {
+    "name": "new"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 2,
+  "fields": {
+    "name": "in_progress"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 3,
+  "fields": {
+    "name": "done"
+  }
+},
+{
+  "model": "webapp.project",
+  "pk": 1,
+  "fields": {
+    "title": "new",
+    "description": "new",
+    "created_at": "2023-03-16",
+    "updated_at": "2023-03-16"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$CovwqNIehq3I68A5A16Emm$YejsBGq28NwtEOB2izSOwEGyPewd5n56+MEH6tVhOBY=",
+    "last_login": "2023-03-16T17:24:09.152Z",
+    "is_superuser": true,
+    "username": "aza",
+    "first_name": "",
+    "last_name": "",
+    "email": "aza@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-16T17:22:08.769Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
