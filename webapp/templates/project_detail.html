@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block menu %}
+{% endblock %}
+
+{% block content %}
+<h2>title: {{ project.title }}</h2>
+<p> Description: {{ project.description }}</p>
+<br>
+<br>
+<br>
+   {% for task in tasks %}
+<p>Summmary: {{ task.summary }}</p>
+<p> Description: {{ task.description }}</p>
+<p>{{task.status}}</p>
+<p>{{task.type}}</p>
+<p><a href="{% url 'article_detail' task.pk %}"> Details </a></p>
+<p><a href="{% url 'article_update' task.pk %}"> Update </a></p>
+<p><a href="{% url 'article_delete' task.pk %}"> Delete </a></p>
+   {% endfor %}
+
+
+{% endblock %}

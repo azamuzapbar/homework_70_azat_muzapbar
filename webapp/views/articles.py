@@ -2,7 +2,7 @@ from django.urls import reverse, reverse_lazy
 from django.views.generic import DetailView, CreateView, UpdateView, DeleteView
 from webapp.forms import TaskForm
 from webapp.models import Task
-Task
+
 
 class ArticleCreateView(CreateView):
     template_name = 'article_create.html'
