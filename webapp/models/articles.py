@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -6,6 +7,7 @@ class Project(models.Model):
     description = models.TextField(max_length=2000, verbose_name='полное_описание')
     created_at = models.DateField(verbose_name='время_создания', auto_now_add=True)
     updated_at = models.DateField(verbose_name='время_обновления', auto_now=True)
+    users = models.ManyToManyField(to=User, related_name='projects')
 
     def __str__(self):
         return self.title

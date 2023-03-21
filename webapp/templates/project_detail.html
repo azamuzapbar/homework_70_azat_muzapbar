@@ -1,26 +1,33 @@
 {% extends 'base.html' %}
 
 {% block title %}
+Project Detail
 {% endblock %}
 
 {% block menu %}
+
 {% endblock %}
 
 {% block content %}
-<h2>title: {{ project.title }}</h2>
-<p> Description: {{ project.description }}</p>
-<br>
-<br>
-<br>
-   {% for task in tasks %}
-<p>Summmary: {{ task.summary }}</p>
-<p> Description: {{ task.description }}</p>
-<p>{{task.status}}</p>
-<p>{{task.type}}</p>
-<p><a href="{% url 'article_detail' task.pk %}"> Details </a></p>
-<p><a href="{% url 'article_update' task.pk %}"> Update </a></p>
-<p><a href="{% url 'article_delete' task.pk %}"> Delete </a></p>
-   {% endfor %}
+<h2>{{ project.title }}</h2>
+<p>{{ project.description }}</p>
 
+<h3>Users</h3>
+<ul>
+{% for user in project.users.all %}
+    <li>{{ user.username }} <a href="{% url 'remove_user_from_project' project.pk user.pk %}">Remove</a></li>
+{% endfor %}
+</ul>
 
+<h3>Add User</h3>
+<form method="post" action="{% url 'add_user_to_project' project.pk %}">
+    {% csrf_token %}
+    <label for="user">User:</label>
+    <select name="user" id="user">
+        {% for user in users %}
+            <option value="{{ user.pk }}">{{ user.username }}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Add User</button>
+</form>
 {% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block menu %}
+{% endblock %}
+
+{% block content %}
+   {% for user in users %}
+<h2>User: {{ user.username }}</h2>
+<a href="{% url 'user_delete' pk=user.pk %}">Delete</a>
+
+   {% endfor %}
+
+{% endblock %}

@@ -8,6 +8,7 @@
 <h2>title: {{ project.title }}</h2>
 <p> Description: {{ project.description }}</p>
 <p><a href="{% url 'project_detail' project.pk %}"> Details </a></p>
+
    {% endfor %}
 
 {% endblock %}
