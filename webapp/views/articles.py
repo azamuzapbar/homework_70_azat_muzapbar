@@ -2,7 +2,7 @@ from django.urls import reverse, reverse_lazy
 from django.views.generic import DetailView, CreateView, UpdateView, DeleteView
 from webapp.forms import TaskForm
 from webapp.models import Task
-
+from django.contrib.auth.mixins import PermissionRequiredMixin
 
 class ArticleCreateView(CreateView):
     template_name = 'article_create.html'
@@ -22,11 +22,11 @@ class ArticleDetail(DetailView):
 
 
 
-class ArticleUpdateView(UpdateView):
+class ArticleUpdateView(PermissionRequiredMixin,UpdateView):
     template_name = 'article_update.html'
     form_class = TaskForm
     model = Task
-
+    permission_required = 'webapp.change_article'
     def get_success_url(self):
         return reverse('article_detail', kwargs={'pk':self.object.pk})
 

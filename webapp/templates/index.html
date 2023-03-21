@@ -11,7 +11,9 @@
 
 
 <p><a href="{% url 'article_detail' task.pk %}"> Details </a></p>
+{% if perms.webapp.change_article %}
 <p><a href="{% url 'article_update' task.pk %}"> Update </a></p>
+{% endif %}
 <p><a href="{% url 'article_delete' task.pk %}"> Delete </a></p>
         {% endfor %}
 {% if is_paginated %}
